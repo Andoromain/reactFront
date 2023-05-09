@@ -2,10 +2,10 @@ import {createBrowserRouter, Navigate} from 'react-router-dom'
 import DefaultLayout from './Component/DefaultLayout';
 import GuestLayout from './Component/GuestLayout';
 import Dashboard from './Dashboard';
-import Login from './views/login';
+import Login from './views/Login';
 import NotFound from './views/NotFound';
-import Signup from './views/signup';
-import User from './views/users';
+import Signup from './views/Signup';
+import User from './views/Users';
 import UserForm from './views/UserForm';
 
 const router=createBrowserRouter([
